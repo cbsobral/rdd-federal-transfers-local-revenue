@@ -1,10 +1,10 @@
 # install packages from CRAN
-p_needed <- c(#'texreg', # load first bc conflict with magrittr/tidyr
-              'tidyverse','haven', 'lubridate', # tidverse tools
-              'magrittr', 'janitor', 'broom', # clean up stuff
-              'stargazer', 'xtable', 'summarytools', 'kableExtra', 'table1', 'kableExtra', # format stuff
-              'ggthemes', 'hrbrthemes',  'RColorBrewer', 'gridExtra', # plot stuff
-              'rdd', 'rdrobust', 'rdmulti' # stats stuff
+p_needed <- c(
+              'tidyverse','haven', 'lubridate', # tidverse 
+              'magrittr', 'janitor', 'broom', # clean up 
+              'stargazer', 'xtable', 'summarytools', 'kableExtra', 'table1', 'kableExtra', # format 
+              'ggthemes', 'hrbrthemes',  'RColorBrewer', 'gridExtra', # plot
+              'rdd', 'rdrobust', 'rdmulti' # stats 
               
 )
 
